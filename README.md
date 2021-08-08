@@ -9,7 +9,7 @@ The outcome of modelling rather than to find the best solution was more towards 
 ## <ins> Approach </ins> ##
 1)-First and foremost is the need of installing the required softwares:-
 
-a)-Putty and Putty gen: Putty for configuring our hostname to AWS, with the required set of authorization. Putty gen is needed to generate primary key (this is saved as a pem file in your system). The primary key is generated for your pkl file, where you have initialized your model.
+a)-Putty and Putty gen: Putty for configuring our hostname to AWS, with the required set of authorization. Putty gen is needed to generate primary key, it is also known as a key generator (this is saved as a pem file in your system). The primary key is generated for your pkl file, where you have initialized your model.
 
 ![Optional Text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Win_SCP%20files.JPG)
 
