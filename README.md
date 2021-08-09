@@ -11,6 +11,14 @@ The outcome of modelling rather than to find the best solution was more towards 
 
 a)-Putty and Putty gen: Putty for configuring our hostname to AWS, with the required set of authorization. Putty gen is needed to generate primary key, it is also known as a key generator (this is saved as a pem file in your system). The primary key is generated for your pkl file, where you have initialized your model.
 
-![Optional Text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Win_SCP%20files.JPG)
+b)- WINScp: It is a free and open-source SSH File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client for Microsoft Windows. Its main function is to secure file transfer between a local computer and a remote server. Here we have created our python app file which consists of the flask API calls, index file under templates where we designed our HTML template and finally our notebook which comprises of the analysis.
 
-b)-
+2)- Next step is a very important one ie accessing our cloud environment, AWS. We start of by creating an instance.
+
+a)- An instance is already created named ML_Health_AV, which is running in an ubuntu server. While creating an instance we have a liberty to choose our options from ubuntu,linux,windows etc. as the host servers. After creation of the instance, you can view on which hostname, Ip address, IPV4 DNS etc. your'e instance is running upon.
+
+b)- Click to connect on the instance you created and also see the security groups as you need to make sure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group your'e creating.
+
+3)- Transfer of files
+a)- We want to make sure to transfer our model and deployment files to AWS, for that Winscp assits us to transfer the required files from local system.
+b)- Now if we want to check whether the files has been transfered to the cloud or not, we can check through Putty.
