@@ -22,4 +22,6 @@ b)- Click to connect on the instance you created and also see the security group
 3)- Transfer of files
 
 a)- We want to make sure to transfer our model and deployment files to AWS, for that Winscp assits us to transfer the required files from local system.
+
 b)- Now if we want to check whether the files has been transfered to the cloud or not, we can check through Putty.
+
