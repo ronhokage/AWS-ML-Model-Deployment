@@ -18,7 +18,9 @@ b)- WINScp: It is a free and open-source SSH File Transfer Protocol, File Transf
 a)- Next step is a very important one ie accessing our cloud environment, AWS. We start of by creating an instance.An instance is already created named ML_Health_AV, which is running in an ubuntu server. While creating an instance we have a liberty to choose our options from ubuntu,linux,windows etc. as the host servers. After creation of the instance, you can view on which hostname, Ip address, IPV4 DNS etc. your'e instance is running upon.
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/instance_1.JPG)
+
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/instance_2.JPG)
+
 
 b)- Click to connect on the instance you created and also see the security groups as you need to makesure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group your'e creating.
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/sec.JPG)
@@ -28,5 +30,9 @@ a)- We want to make sure to transfer our model and deployment files to AWS, for 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/WIN_SCP_F2.JPG)- Login page
 Also you need to provide your pem file in the authentication file in order to connect successfully.
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Authfile.JPG)
+
+![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Win_SCP%20files.JPG)
+
 b)- Now if we want to check whether the files has been transfered to the cloud or not, we can check through Putty.
 
+![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/putty_check.JPG)
