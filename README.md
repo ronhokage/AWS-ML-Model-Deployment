@@ -40,7 +40,7 @@ b)- Now if we want to check whether the files has been transfered to the cloud o
 #### <ins> Running your file </ins> ####
 a)- When the required files has been set in we can run the python file to see the deployment, however there are few things to keep in mind. We need to keep the port as 8080,
 which needs to be configured in the python file. After that, run your python file in putty.
-[!text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/deploy_1.JPG)
+![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/deploy_1.JPG)
 
 b)-You can see the public Ip4 DNS in your AWS instance details, copy that and paste to your browser. Also, mention the port number after the hostname and you can see your deployed file.
 
