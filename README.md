@@ -27,8 +27,12 @@ b)- Click to connect on the instance you created and also see the security group
 #### <ins> Transfer of files </ins> ####
 
 a)- We want to make sure to transfer our model and deployment files to AWS, for that Winscp assits us to transfer the required files from local system.
-![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/WIN_SCP_F2.JPG)- Login page
+- Login page
+
+![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/WIN_SCP_F2.JPG)
+
 Also you need to provide your pem file in the authentication file in order to connect successfully.
+
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Authfile.JPG)
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Win_SCP%20files.JPG)
