@@ -31,7 +31,7 @@ a)- We want to make sure to transfer our model and deployment files to AWS, for 
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/WIN_SCP_F2.JPG)
 
-Also you need to provide your pem file in the authentication file in order to connect successfully.
+- Also you need to provide your pem file in the authentication file in order to connect successfully.
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Authfile.JPG)
 
