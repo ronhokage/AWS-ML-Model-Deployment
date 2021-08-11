@@ -48,4 +48,4 @@ which needs to be configured in the python file. After that, run your python fil
 
 b)-You can see the public Ip4 DNS in your AWS instance details, copy that and paste to your browser. Also, mention the port number after the hostname and you can see your deployed file.
 
-
+![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Deploy_3.JPG)
