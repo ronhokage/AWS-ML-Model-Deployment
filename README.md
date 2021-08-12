@@ -23,7 +23,7 @@ a)- Next step is a very important one ie accessing our cloud environment, AWS. W
 
 b)- Before you launch your instance, you need to look upon the generation of your pem file. This is nothing but a key pair and is needed so that you can access your instance. Since we have selected ubuntu server as the one where our instance will be running it will be a ubuntu instance. This key pair is then saved as a pem file in your system.
 
-c)- Click to connect on the instance you created and also see the security groups as you need to makesure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group your'e creating.[How to create a instance?](https://www.cloudbooklet.com/create-an-ec2-instance-on-aws-with-ubuntu-18-04/)
+c)- Click to connect on the instance you created and also see the security groups as you need to makesure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group your'e creating.(More detailed info on:- [How to create a instance?](https://www.cloudbooklet.com/create-an-ec2-instance-on-aws-with-ubuntu-18-04/))
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/sec.JPG)
 #### <ins> Transfer of files </ins> ####
