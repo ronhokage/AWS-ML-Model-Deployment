@@ -8,7 +8,7 @@ The outcome of modelling rather than to find the best solution was more towards 
 
 ## <ins> Approach </ins> ##
 
-#### <ins> Installation </ins> ####
+#### <ins> First things First </ins> ####
 
 a)-Putty and Putty gen: Putty for configuring our hostname to AWS, with the required set of authorization. Putty gen is needed to generate primary key, it is also known as a key generator (this is saved as a pem file in your system). The primary key is generated for your pkl file, where you have initialized your model.
 
@@ -21,8 +21,10 @@ a)- Next step is a very important one ie accessing our cloud environment, AWS. W
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/instance_2.JPG)
 
+b)- Before you launch your instance, you need to look upon the generation of your pem file. This is nothing but a key pair and is needed so that you can access your instance. Since we have selected ubuntu server as the one where our instance will be running it will be a ubuntu instance. This key pair is then saved as a pem file in your system.
 
-b)- Click to connect on the instance you created and also see the security groups as you need to makesure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group your'e creating.
+c)- Click to connect on the instance you created and also see the security groups as you need to makesure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group your'e creating.[!How to create a instance](https://www.cloudbooklet.com/create-an-ec2-instance-on-aws-with-ubuntu-18-04/)
+
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/sec.JPG)
 #### <ins> Transfer of files </ins> ####
 
