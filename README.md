@@ -56,6 +56,8 @@ a)- When the required files has been set in we can run the python file to see th
 which needs to be configured in the python file. After that, run your python file in putty.
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/deploy_1.JPG)
 
+**Please note, prior running your python files, make sure that the required libraries to run in your program has been installed through putty.
+
 b)-You can see the public Ip4 DNS in your AWS instance details, copy that and paste to your browser. Also, mention the port number after the hostname and you can see your deployed file.
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Deploy_3.JPG)
