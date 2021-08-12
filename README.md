@@ -26,6 +26,11 @@ b)- Before you launch your instance, you need to look upon the generation of you
 c)- Click to connect on the instance you created and also see the security groups as you need to makesure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group your'e creating.(More detailed info on:- [How to create a instance?](https://www.cloudbooklet.com/create-an-ec2-instance-on-aws-with-ubuntu-18-04/))
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/sec.JPG)
+
+#### <ins> Conversion of pem to ppk file </ins> ####
+a)- The next process involves conversion of pem file a ppk (public private key pair) file. This is acheived by means of putty gen. Once done,click on save private key option in putty gen and it will save this file in your system. 
+![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Pgenfile.JPG)
+
 #### <ins> Transfer of files </ins> ####
 
 a)- We want to make sure to transfer our model and deployment files to AWS, for that Winscp assits us to transfer the required files from local system.
@@ -33,7 +38,7 @@ a)- We want to make sure to transfer our model and deployment files to AWS, for 
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/WIN_SCP_F2.JPG)
 
-- Also you need to provide your pem file in the authentication file in order to connect successfully.
+- Also you need to provide your ppk file in the authentication file in order to connect successfully.
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Authfile.JPG)
 
