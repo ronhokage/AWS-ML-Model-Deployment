@@ -38,9 +38,11 @@ a)- We want to make sure to transfer our model and deployment files to AWS, for 
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/WIN_SCP_F2.JPG)
 
-- Also you need to provide your ppk file in the authentication file in order to connect successfully.After that save this session of yours in the putty configuration in order that you can reuse it.
+- Also you need to provide your ppk file in the authentication file in order to connect successfully.After that save this session of yours in the putty configuration in order that you can reuse it. (We have used ML_test as the saved session)
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Authfile.JPG)
+
+![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/ML_test_file.JPG)
 
 - Once the connection si established through Winscp, you can drag the required python files to the server directory, which will make it available in the cloud.
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Win_SCP%20files.JPG)
