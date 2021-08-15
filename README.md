@@ -15,7 +15,7 @@ a)-Putty and Putty gen: Putty for configuring our hostname to AWS, with the requ
 b)- WINScp: It is a free and open-source SSH File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client for Microsoft Windows. Its main function is to secure file transfer between a local computer and a remote server. Here we have created our python app file which consists of the flask API calls, index file under templates where we designed our HTML template and finally our notebook which comprises of the analysis.
 
 #### <ins> Configuring AWS </ins> ####
-a)- Next step is a very important one ie accessing our cloud environment, AWS. We start of by creating an instance.An instance is already created named ML_Health_AV, which is running in an ubuntu server. While creating an instance we have a liberty to choose our options from ubuntu,linux,windows etc. as the host servers. After creation of the instance, you can view on which hostname, Ip address, IPV4 DNS etc. your'e instance is running upon.
+a)- Next step is a very important one ie accessing our cloud environment, AWS. We start of by creating an instance.An instance is already created named ML_Health_AV, which is running in an ubuntu server. While creating an instance we have a liberty to choose our options from ubuntu,linux,windows etc. as the host servers. After creation of the instance, you can view on which hostname, Ip address, IPV4 DNS etc. youre instance is running upon.
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/instance_1.JPG)
 
@@ -23,7 +23,7 @@ a)- Next step is a very important one ie accessing our cloud environment, AWS. W
 
 b)- Before you launch your instance, you need to look upon the generation of your pem file. This is nothing but a key pair and is needed so that you can access your instance. Since we have selected ubuntu server as the one where our instance will be running it will be a ubuntu instance. This key pair is then saved as a pem file in your system, after you download via AWS.
 
-c)- Click to connect on the instance you created and also see the security groups as you need to makesure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group your'e creating.(More detailed info on:- [How to create a instance?](https://www.cloudbooklet.com/create-an-ec2-instance-on-aws-with-ubuntu-18-04/))
+c)- Click to connect on the instance you created and also see the security groups as you need to makesure that the connection you establish via WinSCP can connects to your cloud hassle free. For that, go to security groups and provide full access to the group youre creating.(More detailed info on:- [How to create a instance?](https://www.cloudbooklet.com/create-an-ec2-instance-on-aws-with-ubuntu-18-04/))
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/sec.JPG)
 
@@ -58,6 +58,6 @@ which needs to be configured in the python file. After that, run your python fil
 
 **Please note, prior running your python files, make sure that the required libraries to run in your program has been installed through putty.
 
-b)-You can see the public Ip4 DNS in your AWS instance details, copy that and paste to your browser. Also, mention the port number after the hostname and you can see your deployed file.
+b)-You can see the public Ipv4 DNS in your AWS instance details, copy that and paste to your browser. Also, mention the port number after the hostname and you can see your deployed file.
 
 ![text](https://github.com/ronhokage/AWS-ML-Model-Deployment/blob/main/Img/Deploy_3.JPG)
